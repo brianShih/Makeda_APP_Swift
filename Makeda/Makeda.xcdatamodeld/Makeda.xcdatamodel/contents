@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="15508" systemVersion="18G95" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="CACHEDB" representedClassName="CACHEDB" versionHashModifier="1" syncable="YES" codeGenerationType="class">
+        <attribute name="blogger_intro" optional="YES" attributeType="String"/>
+        <attribute name="id" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="pp_address" optional="YES" attributeType="String"/>
+        <attribute name="pp_comments" optional="YES" attributeType="String"/>
+        <attribute name="pp_country" optional="YES" attributeType="String"/>
+        <attribute name="pp_descrip" optional="YES" attributeType="String"/>
+        <attribute name="pp_fb" optional="YES" attributeType="String"/>
+        <attribute name="pp_name" optional="YES" attributeType="String"/>
+        <attribute name="pp_note" optional="YES" attributeType="String"/>
+        <attribute name="pp_opentime" optional="YES" attributeType="String"/>
+        <attribute name="pp_phone" optional="YES" attributeType="String"/>
+        <attribute name="pp_pic" optional="YES" attributeType="String"/>
+        <attribute name="pp_score" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="pp_status" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="pp_web" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="TRIPPLANLISTS" representedClassName="TRIPPLANLISTS" versionHashModifier="1" syncable="YES" codeGenerationType="class">
+        <attribute name="author" optional="YES" attributeType="String"/>
+        <attribute name="contentJsonFormat" optional="YES" attributeType="String"/>
+        <attribute name="grouplist" optional="YES" attributeType="String"/>
+        <attribute name="id" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="log" optional="YES" attributeType="String"/>
+        <attribute name="planname" optional="YES" attributeType="String"/>
+    </entity>
+    <elements>
+        <element name="CACHEDB" positionX="-63" positionY="-18" width="128" height="28"/>
+        <element name="TRIPPLANLISTS" positionX="-63" positionY="99" width="128" height="28"/>
+    </elements>
+</model>
